@@ -1,0 +1,188 @@
+.wrapper {   
+  max-width: 80%;
+  padding-left: 100px;
+
+}
+
+.heading img {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+ 
+
+}
+
+.heading h1 {
+  text-align: left;
+  font-family: 'Source Serif Pro', serif;
+}
+
+/*------------primary-navigation---------*/
+.primary-nav {
+  background-color: #000000;
+  color:#ccffda;
+    
+}
+
+nav ul {
+  padding: 8px;
+  padding-bottom: 3px;
+}
+
+nav ul li {
+  display: block;
+  list-style: none;
+  background-color:
+  color:#66eba7;
+    
+}
+
+nav ul li a {
+  color:#66eba7;
+  text-decoration: none;
+  margin-right: 50px;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1rem;
+    
+}
+
+/*----------secondary-navigation----------------*/
+
+.secondary-nav {
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+ 
+}
+
+.button {
+  
+  padding: 3px 3px;
+  margin: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #000000;
+  
+}
+
+.button:hover {
+  background-color: #000000;
+  color:#a3e8bb;
+}
+
+.button:active {
+  background-color: #66eba7;
+
+}
+
+figure img {
+  width: 200px;
+  height: 200px;
+  float: left;
+
+}
+
+figure p {
+
+  font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+/*----------------footer-------------_*/
+footer {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  float: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*---------------social-links--------------*/
+
+.social {
+    width: 30px;
+    height: auto;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+/*-----------------Mobile View < 30 rem--------------*/
+
+@media all and (min-width: 30rem) {
+  body {
+    font-size: .75rem;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+  }
+
+  nav ul li a {
+    margin: 15px;
+  }
+
+
+  figure {
+    width: 100%;
+    float: left;
+  }
+
+  figure img {
+    margin: 0 1rem 1rem 0;
+    float: left;
+  }
+  figure figcaption {
+    text-align: left;
+    line-height: 1.6rem;
+  }
+
+  .container {
+    float: right;
+    width: 80%;
+  }
+}
+
+/*----------------30 rem < Desktop View  < 60 rem-----------------*/
+
+@media all and (min-width: 60rem) {
+  body {
+    font: 1rem;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  figure img {
+    margin: 0 1rem 1rem 0;
+    width:25%;
+    float: left;
+  }
+
+  figure figcaption {
+    text-align: center;
+    line-height: 1.6rem;
+  }
+
+  ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+
+  .container {
+    width: 100%;
+  }
+
+  nav ul {
+    text-align: left;
+  }
+
+}
